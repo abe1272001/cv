@@ -12,7 +12,7 @@ export const RESUME_DATA = {
   summary:
     "As a Frontend Developer, I've led the development of several products from start to finish, guiding teams to create optimal working environments. My focus is on TypeScript, React, Next.js, Vue3, and Nuxt3. With over 3 years of experience, I've honed my ability to balance remote and in-person collaboration for efficient task completion and effective teamwork.",
   avatarUrl: "https://avatars.githubusercontent.com/u/46858104?v=4",
-  personalWebsiteUrl: "",
+  personalWebsiteUrl: "https://abechen.net/",
   contact: {
     email: "abe1272001@gmail.com",
     tel: "+886 955124733",
