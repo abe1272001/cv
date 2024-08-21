@@ -10,7 +10,7 @@ export const RESUME_DATA = {
     "Frontend Developer focused on building products with extra attention to details. My work ethos revolves around 'Solving problems, creating value'",
 
   summary:
-    "As a Frontend Developer, I've led the development of several products from start to finish, guiding teams to create optimal working environments. My focus is on TypeScript, React, Next.js, Vue3, and Nuxt3. With over 3 years of experience, I've honed my ability to balance remote and in-person collaboration for efficient task completion and effective teamwork.",
+    "As a Frontend Developer with over 3 years of experience, I've led the development of several products from start to finish, guiding teams to create optimal working environments. My expertise lies in TypeScript, React, Next.js, Vue3, and Nuxt3. I've honed my ability to balance remote and in-person collaboration, ensuring efficient task completion and effective teamwork.",
   avatarUrl: "https://avatars.githubusercontent.com/u/46858104?v=4",
   personalWebsiteUrl: "https://abechen.net/",
   contact: {
@@ -52,7 +52,7 @@ export const RESUME_DATA = {
       start: "2022.12",
       end: null,
       description:
-        "Managed a six-person frontend team, established project infrastructures from scratch, assigned project tasks, conducted code reviews, mentored new team members, and maintained frontend documentation standards. Collaborated with PMs, UI/UX designers, backend engineers, and app engineers. Capable of independently developing frontend projects. Technologies: TypeScript, Next.js/React, Nuxt3/Vue3, TanStack Query, Docker, Pinia, Jotai, TailwindCSS, ChakraUI, Shadcn/ui, VantUI",
+        "Led a six-person frontend team, establishing project infrastructures from scratch. Responsibilities included task assignment, code reviews, mentoring new team members, and maintaining frontend documentation standards. Collaborated with PMs, UI/UX designers, backend engineers, and app engineers. Demonstrated capability to independently develop frontend projects. Technologies: TypeScript, Next.js/React, Nuxt3/Vue3, TanStack Query, Pinia, Jotai, TailwindCSS, ChakraUI, Shadcn/ui, VantUI, Docker",
     },
     {
       company: "Farmland 農田科技股份有限公司",
@@ -62,7 +62,7 @@ export const RESUME_DATA = {
       start: "2022.05",
       end: "2022.11",
       description:
-        "Developed Next.js/React project to implement a management system, developed macOS Apps using SwiftUI and integrated SDKs and backend APIs. Technologies: Next.js, React, Redux RTK, TypeScript, TailwindCSS, ChakraUI",
+        "Developed a management system using Next.js/React and created macOS Apps with SwiftUI, integrating SDKs and backend APIs. Technologies: TypeScript, Next.js, React, Redux RTK, TailwindCSS, ChakraUI",
     },
     {
       company: "Hyena Inc. 凱納股份有限公司",
@@ -72,7 +72,7 @@ export const RESUME_DATA = {
       start: "2021.10",
       end: "2022.04",
       description:
-        "Developed the desktop application Hyena Service Tool using ElectronJS and VueJS to integrate the electric bicycle SDK and backend APIs. Utilized Vuex and Pinia for state management, with hands-on experience transitioning from Vuex to Pinia. Managed version releases using Azure Pipeline. Implemented client-side error and operation monitoring using Datadog. Collaborated with PMs, UI/UX designers, backend engineers and app engineers, familiar with Agile development methodologies. Technologies: Electron.js, Vue, Vuex, Pinia, TypeScript, SCSS",
+        "Developed the Hyena Service Tool, a desktop application using ElectronJS and VueJS, integrating electric bicycle SDK and backend APIs. Implemented state management with Vuex and Pinia, gaining experience in transitioning between the two. Managed version releases via Azure Pipeline and implemented client-side error and operation monitoring using Datadog. Collaborated with cross-functional teams and applied Agile development methodologies. Technologies: Electron.js, Vue, Vuex, Pinia, TypeScript, SCSS",
     },
     {
       company: "Project 普羅傑有限公司",
@@ -82,7 +82,7 @@ export const RESUME_DATA = {
       start: "2021.02",
       end: "2021.10",
       description:
-        "Maintained portal and admin website for gaming companies. Refactor and optimized the website to improve performance and user experience. Collaborated with backend engineers to implement new features and integrate new technologies. Technologies: JavaScript, React, Bootstrap, JQuery",
+        "Maintained and optimized portal and admin websites for gaming companies, improving performance and user experience. Collaborated with backend engineers to implement new features and integrate new technologies. Technologies: JavaScript, React, Bootstrap, jQuery",
     },
   ],
   skills: [
@@ -116,7 +116,8 @@ export const RESUME_DATA = {
         "TailwindCSS",
         "D3",
       ],
-      description: "A Model training platform that assists users to train ai models for various tasks",
+      description:
+        "A model training platform that assists users in training AI models for various tasks.",
     },
     {
       title: "CarFinder 智慧找車",
@@ -129,7 +130,7 @@ export const RESUME_DATA = {
         "SEO",
       ],
       description:
-        "A web platform for the Yulon Group that assists users in finding their ideal car, comparing prices, and scheduling appointments with dealers",
+        "A web platform for the Yulon Group that helps users find their ideal car, compare prices, and schedule appointments with dealers.",
       link: {
         label: "https://carfinder.oppenai.io/",
         href: "https://carfinder.oppenai.io/",
@@ -139,7 +140,7 @@ export const RESUME_DATA = {
       title: "Wowprime 王品瘋美食",
       techStack: [
         "Next.js/React",
-        "Javascript",
+        "JavaScript",
         "ChakraUI",
         "Redux",
         "Google Maps",
@@ -147,7 +148,7 @@ export const RESUME_DATA = {
         "Flutter Webview",
       ],
       description:
-        "Web application for Wowprime group, enabling members to manage orders, payments, and discover interesting restaurants to visit",
+        "A web application for the Wowprime group, enabling members to manage orders, payments, discover interesting restaurants and events.",
       link: {
         label: "wowprime-mobile-web.wowfmsapp.com",
         href: "https://wowprime-mobile-web.wowfmsapp.com/onboarding",
@@ -156,9 +157,8 @@ export const RESUME_DATA = {
     {
       title: "Hyena Service Tool",
       techStack: ["ElectronJS", "Vue3", "Pinia", "Vuex", "Datadog", "SCSS"],
-
       description:
-        "Desktop application for supporting e-bike dealers in optimizing the maintenance work of e-bikes and the end-user experience",
+        "A desktop application supporting e-bike dealers in optimizing the maintenance of e-bikes and enhancing the end-user experience.",
       link: {
         label: "www.hyena-ebike.com",
         href: "https://www.hyena-ebike.com/software_service/service_tool/?lang=zh-hant",
