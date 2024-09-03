@@ -50,8 +50,13 @@ export const RESUME_DATA = {
       title: "Senior Frontend Developer",
       start: "2022.12",
       end: "2024.07",
-      description:
-        "Led a six-person frontend team, establishing project infrastructures from scratch. Responsibilities included task assignment, code reviews, mentoring new team members, and maintaining frontend documentation standards. Collaborated with PMs, UI/UX designers, backend engineers, and app engineers. Demonstrated capability to independently develop frontend projects. Technologies: TypeScript, JavaScript, React/Next.js, Vue/Nuxt.js, TanStack Query, Pinia, Jotai, TailwindCSS, ChakraUI, Shadcn/ui, VantUI, Docker",
+      description: [
+        "Led a six-person frontend team, establishing project infrastructures from scratch.",
+        "Demonstrated capability to independently develop frontend projects.",
+        "Responsibilities included task assignment, code reviews, mentoring new team members, and maintaining frontend documentation standards.",
+        "Collaborated with PMs, UI/UX designers, backend engineers, and app engineers.",
+        "Tech Stack: TypeScript, JavaScript, React/Next.js, Vue/Nuxt.js, TanStack Query, Pinia, Jotai, TailwindCSS, ChakraUI, Shadcn/ui, VantUI, Docker",
+      ],
     },
     {
       company: "Farmland 農田科技股份有限公司",
@@ -60,8 +65,11 @@ export const RESUME_DATA = {
       title: "Frontend Developer",
       start: "2022.05",
       end: "2022.11",
-      description:
-        "Led the development of a firmware management system utilizing Next.js and React. Demonstrated versatility by creating macOS applications with SwiftUI, integrating various SDKs and backend APIs. Technologies: JavaScript, Next.js, React, Redux RTK, TailwindCSS, ChakraUI, SwiftUI",
+      description: [
+        "Led the development of a firmware management system utilizing Next.js and React.",
+        "Demonstrated versatility by creating macOS applications with SwiftUI, integrating various SDKs and backend APIs.",
+        "Tech Stack: JavaScript, React/Next.js, Redux RTK, TailwindCSS, ChakraUI, SwiftUI",
+      ],
     },
     {
       company: "Hyena Inc. 凱納股份有限公司",
@@ -70,8 +78,13 @@ export const RESUME_DATA = {
       title: "Frontend Developer",
       start: "2021.10",
       end: "2022.04",
-      description:
-        "Developed the Hyena Service Tool, a desktop application using Electron.js and Vue.js, integrating electric bicycle SDK and backend APIs. Implemented state management with Vuex and Pinia, gaining experience in transitioning between the two. Managed version releases via Azure Pipeline and implemented client-side error and operation monitoring using Datadog. Collaborated with cross-functional teams and applied Agile development methodologies. Technologies: JavaScript, TypeScript, Electron.js, Vue.js, Vuex, Pinia, SCSS",
+      description: [
+        "Developed the Hyena Service Tool, a desktop application using Electron.js and Vue.js, integrating electric bicycle SDK and backend APIs.",
+        "Implemented state management with Vuex and Pinia, gaining experience in transitioning between them.",
+        "Managed version releases via Azure Pipeline and implemented client-side error and operation monitoring using Datadog.",
+        "Collaborated with cross-functional teams and applied Agile development methodologies.",
+        "Tech Stack: JavaScript, TypeScript, Electron.js, Vue.js, Vuex, Pinia, SCSS",
+      ],
     },
     {
       company: "Project 普羅傑有限公司",
@@ -80,8 +93,11 @@ export const RESUME_DATA = {
       title: "Frontend Developer",
       start: "2021.02",
       end: "2021.10",
-      description:
-        "Maintained and optimized portal and admin websites for gaming companies, improving performance and user experience. Collaborated with backend engineers to implement new features and integrate new technologies. Technologies: JavaScript, React, Bootstrap, jQuery",
+      description: [
+        "Maintained and optimized portal and admin websites for gaming companies, improving performance and user experience.",
+        "Collaborated with backend engineers to implement new features and integrate new technologies.",
+        "Tech Stack: JavaScript, React, Bootstrap, jQuery",
+      ],
     },
   ],
   skills: [
