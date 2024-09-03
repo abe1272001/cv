@@ -4,7 +4,7 @@ import { Badge } from "@/components/ui/badge";
 import { CommandMenu } from "@/components/command-menu";
 import { Metadata } from "next";
 import { Section } from "@/components/ui/section";
-import { GlobeIcon, MailIcon, PhoneIcon } from "lucide-react";
+import { GlobeIcon, MailIcon, PhoneIcon, Globe2 } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { RESUME_DATA } from "@/data/resume-data";
 import { ProjectCard } from "@/components/project-card";
@@ -30,12 +30,12 @@ export default function Page() {
                 href={RESUME_DATA.locationLink}
                 target="_blank"
               >
-                <GlobeIcon className="size-3" />
+                <Globe2 className="size-3" />
                 {RESUME_DATA.location}
               </a>
             </p>
             <div className="flex gap-x-1 pt-1 font-mono text-sm text-muted-foreground print:hidden">
-              {RESUME_DATA.contact.email ? (
+              {RESUME_DATA.contact.email && (
                 <Button
                   className="size-8"
                   variant="outline"
@@ -46,8 +46,8 @@ export default function Page() {
                     <MailIcon className="size-4" />
                   </a>
                 </Button>
-              ) : null}
-              {RESUME_DATA.contact.tel ? (
+              )}
+              {/* {RESUME_DATA.contact.tel && (
                 <Button
                   className="size-8"
                   variant="outline"
@@ -58,7 +58,7 @@ export default function Page() {
                     <PhoneIcon className="size-4" />
                   </a>
                 </Button>
-              ) : null}
+              )} */}
               {RESUME_DATA.contact.social.map((social) => (
                 <Button
                   key={social.name}
@@ -72,18 +72,37 @@ export default function Page() {
                   </a>
                 </Button>
               ))}
+              {RESUME_DATA.personalWebsiteUrl && (
+                <Button
+                  className="size-8"
+                  variant="outline"
+                  size="icon"
+                  asChild
+                >
+                  <a href={RESUME_DATA.personalWebsiteUrl} target="_blank">
+                    <GlobeIcon className="size-4" />
+                  </a>
+                </Button>
+              )}
             </div>
             <div className="hidden flex-col gap-x-1 font-mono text-sm text-muted-foreground print:flex print:text-[12px]">
-              {RESUME_DATA.contact.email ? (
+              {RESUME_DATA.contact.email && (
                 <a href={`mailto:${RESUME_DATA.contact.email}`}>
                   <span className="underline">{RESUME_DATA.contact.email}</span>
                 </a>
-              ) : null}
-              {RESUME_DATA.contact.tel ? (
+              )}
+              {RESUME_DATA.contact.tel && (
                 <a href={`tel:${RESUME_DATA.contact.tel}`}>
                   <span className="underline">{RESUME_DATA.contact.tel}</span>
                 </a>
-              ) : null}
+              )}
+              {RESUME_DATA.personalWebsiteUrl && (
+                <a href={RESUME_DATA.personalWebsiteUrl}>
+                  <span className="underline">
+                    {RESUME_DATA.personalWebsiteUrl}
+                  </span>
+                </a>
+              )}
             </div>
           </div>
 
@@ -112,7 +131,7 @@ export default function Page() {
             return (
               <Card key={work.company}>
                 <CardHeader>
-                  <div className="flex items-center justify-between gap-x-2 text-base">
+                  <div className="flex flex-col items-start justify-between gap-2 gap-x-2 text-base md:flex-row md:items-center">
                     <h3 className="inline-flex items-center justify-center gap-x-1 font-semibold leading-none">
                       <a className="hover:underline" href={work.link}>
                         {work.company}
@@ -122,7 +141,7 @@ export default function Page() {
                         {work.badges.map((badge) => (
                           <Badge
                             variant="secondary"
-                            className="align-middle text-xs print:text-[8px] print:leading-tight print:px-1 print:py-0.5"
+                            className="align-middle text-xs print:px-1 print:py-0.5 print:text-[8px] print:leading-tight"
                             key={badge}
                           >
                             {badge}
@@ -173,7 +192,6 @@ export default function Page() {
           <div className="flex flex-wrap gap-1">
             {RESUME_DATA.hobbies.map((hobby) => {
               return <Badge key={hobby}>{hobby}</Badge>;
-
             })}
           </div>
         </Section>

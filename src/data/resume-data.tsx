@@ -1,4 +1,3 @@
-import { MonitoLogo } from "@/images/logos";
 import { GitHubIcon, LinkedInIcon, XIcon } from "@/components/icons";
 
 export const RESUME_DATA = {
@@ -7,10 +6,10 @@ export const RESUME_DATA = {
   location: "Taichung City, Taiwan",
   locationLink: "https://www.google.com/maps/place/Taichung,+Taiwan",
   about:
-    "Frontend Developer focused on building products with extra attention to details. My work ethos revolves around 'Solving problems, creating value'",
+    "A Frontend Developer focused on building products with extra attention to detail. My work ethos revolves around 'Solving problems, creating value'",
 
   summary:
-    "As a Frontend Developer with over 3 years of experience, I've led the development of several products from start to finish, guiding teams to create optimal working environments. My expertise lies in TypeScript, React, Next.js, Vue3, and Nuxt3. I've honed my ability to balance remote and in-person collaboration, ensuring efficient task completion and effective teamwork.",
+    "As a Frontend Developer with over 4 years of experience, I've led the development of several products from start to finish, guiding teams to create optimal working environments. My expertise lies in TypeScript, React, Next.js, Vue.js, and Nuxt.js. I've honed my ability to balance remote and in-person collaboration, ensuring efficient task completion and effective teamwork.",
   avatarUrl: "https://avatars.githubusercontent.com/u/46858104?v=4",
   personalWebsiteUrl: "https://abechen.net/",
   contact: {
@@ -36,9 +35,9 @@ export const RESUME_DATA = {
   },
   education: [
     {
-      school: "Yuan Ze University of Management",
+      school: "Yuan Ze University",
       degree:
-        "Bachelor's Degree of Business Administration(Global Business Management Program)",
+        "Bachelor's Degree in Business Administration (Global Business Management Program)",
       start: "2013",
       end: "2017",
     },
@@ -50,9 +49,9 @@ export const RESUME_DATA = {
       badges: ["Partial Remote"],
       title: "Senior Frontend Developer",
       start: "2022.12",
-      end: null,
+      end: "2024.07",
       description:
-        "Led a six-person frontend team, establishing project infrastructures from scratch. Responsibilities included task assignment, code reviews, mentoring new team members, and maintaining frontend documentation standards. Collaborated with PMs, UI/UX designers, backend engineers, and app engineers. Demonstrated capability to independently develop frontend projects. Technologies: TypeScript, Next.js/React, Nuxt3/Vue3, TanStack Query, Pinia, Jotai, TailwindCSS, ChakraUI, Shadcn/ui, VantUI, Docker",
+        "Led a six-person frontend team, establishing project infrastructures from scratch. Responsibilities included task assignment, code reviews, mentoring new team members, and maintaining frontend documentation standards. Collaborated with PMs, UI/UX designers, backend engineers, and app engineers. Demonstrated capability to independently develop frontend projects. Technologies: TypeScript, JavaScript, React/Next.js, Vue/Nuxt.js, TanStack Query, Pinia, Jotai, TailwindCSS, ChakraUI, Shadcn/ui, VantUI, Docker",
     },
     {
       company: "Farmland 農田科技股份有限公司",
@@ -62,7 +61,7 @@ export const RESUME_DATA = {
       start: "2022.05",
       end: "2022.11",
       description:
-        "Developed a management system using Next.js/React and created macOS Apps with SwiftUI, integrating SDKs and backend APIs. Technologies: TypeScript, Next.js, React, Redux RTK, TailwindCSS, ChakraUI",
+        "Led the development of a firmware management system utilizing Next.js and React. Demonstrated versatility by creating macOS applications with SwiftUI, integrating various SDKs and backend APIs. Technologies: JavaScript, Next.js, React, Redux RTK, TailwindCSS, ChakraUI, SwiftUI",
     },
     {
       company: "Hyena Inc. 凱納股份有限公司",
@@ -72,7 +71,7 @@ export const RESUME_DATA = {
       start: "2021.10",
       end: "2022.04",
       description:
-        "Developed the Hyena Service Tool, a desktop application using ElectronJS and VueJS, integrating electric bicycle SDK and backend APIs. Implemented state management with Vuex and Pinia, gaining experience in transitioning between the two. Managed version releases via Azure Pipeline and implemented client-side error and operation monitoring using Datadog. Collaborated with cross-functional teams and applied Agile development methodologies. Technologies: Electron.js, Vue, Vuex, Pinia, TypeScript, SCSS",
+        "Developed the Hyena Service Tool, a desktop application using Electron.js and Vue.js, integrating electric bicycle SDK and backend APIs. Implemented state management with Vuex and Pinia, gaining experience in transitioning between the two. Managed version releases via Azure Pipeline and implemented client-side error and operation monitoring using Datadog. Collaborated with cross-functional teams and applied Agile development methodologies. Technologies: JavaScript, TypeScript, Electron.js, Vue.js, Vuex, Pinia, SCSS",
     },
     {
       company: "Project 普羅傑有限公司",
@@ -89,7 +88,7 @@ export const RESUME_DATA = {
     "JavaScript",
     "TypeScript",
     "React/Next.js",
-    "Vue3/Nuxt3",
+    "Vue/Nuxt.js",
     "Electron.js",
     "Node.js",
     "TailwindCSS",
@@ -107,11 +106,30 @@ export const RESUME_DATA = {
   ],
   projects: [
     {
+      title: "Personal Website",
+      techStack: [
+        "TypeScript",
+        "React/Next.js",
+        "TailwindCSS",
+        "Contentlayer",
+        "SEO",
+        "GA4",
+      ],
+      description:
+        "A personal blog website built with Next.js 14 using the App Router, showcasing my projects, skills, and articles.",
+      link: {
+        label: "abechen.net",
+        href: "https://abechen.net/",
+      },
+    },
+    {
       title: "AI Training Tool",
       techStack: [
         "TypeScript",
-        "Next.js/React",
+        "React/Next.js",
         "TanStack Query",
+        "TanStack Table",
+        "React Hook Form",
         "Shadcn/ui",
         "TailwindCSS",
         "D3",
@@ -123,7 +141,7 @@ export const RESUME_DATA = {
       title: "CarFinder 智慧找車",
       techStack: [
         "TypeScript",
-        "Nuxt3/Vue3",
+        "Vue/Nuxt.js",
         "TanStack Query",
         "VantUI",
         "UnoCSS",
@@ -132,14 +150,14 @@ export const RESUME_DATA = {
       description:
         "A web platform for the Yulon Group that helps users find their ideal car, compare prices, and schedule appointments with dealers.",
       link: {
-        label: "https://carfinder.oppenai.io/",
+        label: "carfinder.oppenai.io",
         href: "https://carfinder.oppenai.io/",
       },
     },
     {
       title: "Wowprime 王品瘋美食",
       techStack: [
-        "Next.js/React",
+        "React/Next.js",
         "JavaScript",
         "ChakraUI",
         "Redux",
@@ -156,7 +174,7 @@ export const RESUME_DATA = {
     },
     {
       title: "Hyena Service Tool",
-      techStack: ["ElectronJS", "Vue3", "Pinia", "Vuex", "Datadog", "SCSS"],
+      techStack: ["Electron.js", "Vue.js", "Pinia", "Vuex", "Datadog", "SCSS"],
       description:
         "A desktop application supporting e-bike dealers in optimizing the maintenance of e-bikes and enhancing the end-user experience.",
       link: {
