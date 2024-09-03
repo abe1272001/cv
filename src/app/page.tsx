@@ -159,7 +159,11 @@ export default function Page() {
                   </h4>
                 </CardHeader>
                 <CardContent className="mt-2 text-xs print:text-[10px]">
-                  {work.description}
+                  <ul className="list-disc pl-3">
+                    {work.description.map((item) => (
+                      <li key={item}>{item}</li>
+                    ))}
+                  </ul>
                 </CardContent>
               </Card>
             );
