@@ -80,10 +80,11 @@ export const RESUME_DATA = {
       end: "2022.04",
       description: [
         "Developed the Hyena Service Tool, a desktop application using Electron.js and Vue.js, integrating electric bicycle SDK and backend APIs.",
-        "Implemented state management with Vuex and Pinia, gaining experience in transitioning between them.",
-        "Managed version releases via Azure Pipeline and implemented client-side error and operation monitoring using Datadog.",
+        "Handled state management with Vuex and Pinia, gaining experience in migrating from Vuex to Pinia.",
+        "Managed version releases via Azure Pipeline.",
+        "Implemented client-side error and operation monitoring using Datadog.",
         "Collaborated with cross-functional teams and applied Agile development methodologies.",
-        "Tech Stack: JavaScript, TypeScript, Electron.js, Vue.js, Vuex, Pinia, SCSS",
+        "Tech Stack: JavaScript, TypeScript, Electron.js, Vue.js, Vuex, Pinia, SCSS, Datadog",
       ],
     },
     {
